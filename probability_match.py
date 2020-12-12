@@ -150,6 +150,4 @@ def show_results(r_count, g_count, b_count):
 
 if __name__ == "__main__":
     r, g, b = [int(a) for a in sys.argv[1:]]
-    print((r,g,b))
-
     show_results(r, g, b)
